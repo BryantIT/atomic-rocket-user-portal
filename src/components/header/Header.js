@@ -9,8 +9,8 @@ const Header = () => {
 			<input type="search" name="search" placeholder="Type and Hit Enter.." />
 			<button>Search</button>
 		</form>
-		<div className="container nav-bar-container">
-			<div className="row nav-row">
+		<div className='container nav-bar-container'>
+			<div className='row nav-row'>
 				<div className="logo-container">
 					<a href="index.html">
 						<span className="logo ">Music<span className="colored">Base</span></span>
