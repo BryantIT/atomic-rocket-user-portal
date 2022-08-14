@@ -11,9 +11,9 @@ const Header = () => {
 		</form>
 		<div className='container nav-bar-container'>
 			<div className='row nav-row'>
-				<div className="logo-container">
+				<div className='logo-container'>
 					<a href="index.html">
-						<span className="logo ">Music<span className="colored">Base</span></span>
+						<span className='logo'>Music<span className="colored">Base</span></span>
 						<br />
 						<span className="tagline colored-orange">Electro Music Base</span>
 					</a>

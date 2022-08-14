@@ -58,3 +58,6 @@ code {
 .nav:after {
   clear: both;
 }
+.colored {
+  color: #1fd3ec;
+}
