@@ -3,11 +3,6 @@ import React from 'react'
 import NavBar from '../navbar/NavBar'
 // Stylesheet
 import './style.css'
-// Icons
-import { RiShoppingCartLine } from 'react-icons/ri'
-import { FaSearchengin } from 'react-icons/fa'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { AiOutlineClose } from 'react-icons/ai'
 
 const Header = () => {
   return (

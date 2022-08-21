@@ -1,11 +1,18 @@
+import React, { Fragment } from 'react'
 // Components
 import Header from './components/header/Header'
-import './App.css';
+import MusicPlayer from './components/musicplayer/MusicPlayer'
+import './App.css'
 
 function App() {
   return (
-    <Header />
+    <Fragment>
+      <Header />
+      <div className='site-content'>
+        <MusicPlayer />
+      </div>
+    </Fragment>
   )
 }
 
-export default App;
+export default App

@@ -7,7 +7,6 @@ import './style.css'
 import { RiShoppingCartLine } from 'react-icons/ri'
 import { FaSearchengin } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { AiOutlineClose } from 'react-icons/ai'
 
 const NavBar = () => {
   return (
