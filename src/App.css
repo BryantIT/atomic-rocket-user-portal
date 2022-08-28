@@ -63,10 +63,10 @@
 .section-title {
   text-align: center;
 }
-.section-title.pdb-30 {
+.section-title .pdb-30 {
   padding-bottom: 30px;
 }
-.section-title.pdb-60 {
+.section-title .pdb-60 {
   padding-bottom: 60px;
 }
 .section-title h2 {
@@ -302,6 +302,7 @@
   background: #1fd3ec;
 }
 .btn-wrapper {
+  padding-top: 2vh;
   text-align: center;
 }
 .btn-wrapper .pdt-70 {
@@ -312,7 +313,18 @@
   margin-right: 10px;
 }
 @media (min-width: 768px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
     float: left;
   }
   .col-sm-12 {
@@ -468,4 +480,11 @@
   .col-sm-offset-0 {
     margin-left: 0%;
   }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

@@ -390,11 +390,11 @@
   width: 50%;
   float: left;
 }
-.home-player-wrapper-2 .nowPlaying h3.artist-name {
+.home-player-wrapper-2 .nowPlaying h3 .artist-name {
   text-align: right;
   padding-right: 220px;
 }
-.home-player-wrapper-2 .nowPlaying h3.artist-name:before {
+.home-player-wrapper-2 .nowPlaying h3 .artist-name:before {
   left: 0;
   border-right: 2px solid #171717;
 }
