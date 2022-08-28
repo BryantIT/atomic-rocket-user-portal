@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // Style
 import './style.css'
 // Icons
@@ -7,6 +7,10 @@ import { CgPlayBackwards, CgPlayForwards, CgPlayButtonO } from 'react-icons/cg'
 import { AiOutlineBars } from 'react-icons/ai'
 
 const MusicPlayer = () => {
+    // Constants
+    const spotifyBase = 'https://api.spotify.com/v1'
+    // States
+    const [playlist, setPlaylist] = useState(null)
   return (
     <div className='home-player-wrapper-2'>
       <div className='wrapper-container'>

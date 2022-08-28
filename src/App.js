@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 // Components
 import Header from './components/header/Header'
-import MusicPlayer from './components/musicplayer/MusicPlayer'
+import Home from './pages/Home'
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Fragment>
       <Header />
       <div className='site-content'>
-        <MusicPlayer />
+        <Home />
       </div>
     </Fragment>
   )
