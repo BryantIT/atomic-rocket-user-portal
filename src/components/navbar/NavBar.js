@@ -7,6 +7,8 @@ import './style.css'
 import { RiShoppingCartLine } from 'react-icons/ri'
 import { FaSearchengin } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
+// Router
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
   return (
@@ -14,7 +16,7 @@ const NavBar = () => {
       <div id='site-navigation' className='tech-nav'>
         <ul>
           <li className='active has-child'>
-            <a href='#'>Home</a>
+            <Link to='/'>Home</Link>
             <ul className='submenu'>
               <li>
                 <a href='index.html'>Home Band</a>
