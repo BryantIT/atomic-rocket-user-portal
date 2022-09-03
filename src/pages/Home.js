@@ -4,6 +4,7 @@ import MusicPlayer from '../components/musicplayer/MusicPlayer'
 import Albums from '../components/albums/Albums'
 import Artists from '../components/artists/Artists'
 import EventsList from '../components/eventsList/EventsList'
+import Gallery from '../components/gallery/Gallery'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Albums />
       <Artists />
       <EventsList />
+      <Gallery />
     </Fragment>
   )
 }
