@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import MusicPlayer from '../components/musicplayer/MusicPlayer'
 import Albums from '../components/albums/Albums'
 import Artists from '../components/artists/Artists'
+import EventsList from '../components/eventsList/EventsList'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <MusicPlayer />
       <Albums />
       <Artists />
+      <EventsList />
     </Fragment>
   )
 }

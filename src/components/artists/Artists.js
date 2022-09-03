@@ -199,10 +199,10 @@ const Artists = () => {
       </div>
       <div className='btn-wrapper pdt-70 multiple-btn'>
         <a href='members.html' className='btn first'>
-          <i className='fa fa-users'></i>All Members
+          All Members
         </a>
         <a href='members.html' className='btn orange'>
-          <i className='fa fa-user-plus'></i>New Members
+          New Members
         </a>
       </div>
     </div>

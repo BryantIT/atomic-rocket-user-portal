@@ -1,8 +1,6 @@
 import React from 'react'
 // Style
 import './style.css'
-// Icons
-import { BiRadioCircleMarked } from 'react-icons/bi'
 
 const Albums = () => {
   return (
@@ -101,9 +99,6 @@ const Albums = () => {
           </div>
           <div className='btn-wrapper pdt-70'>
             <a href='albums.html' className='btn'>
-              <i>
-                <BiRadioCircleMarked />
-              </i>
               All Albums
             </a>
           </div>
