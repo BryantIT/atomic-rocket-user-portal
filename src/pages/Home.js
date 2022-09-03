@@ -6,6 +6,7 @@ import Artists from '../components/artists/Artists'
 import EventsList from '../components/eventsList/EventsList'
 import Gallery from '../components/gallery/Gallery'
 import Blog from '../components/blog/Blog'
+import RecentProducts from '../components/products/RecentProducts'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <EventsList />
       <Gallery />
       <Blog />
+      <RecentProducts />
     </Fragment>
   )
 }
