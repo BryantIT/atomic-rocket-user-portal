@@ -5,6 +5,7 @@ import Albums from '../components/albums/Albums'
 import Artists from '../components/artists/Artists'
 import EventsList from '../components/eventsList/EventsList'
 import Gallery from '../components/gallery/Gallery'
+import Blog from '../components/blog/Blog'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Artists />
       <EventsList />
       <Gallery />
+      <Blog />
     </Fragment>
   )
 }
