@@ -41,13 +41,6 @@ const RecentProducts = () => {
 							<div className="info-block">
 								<a href="product-single.html"><h4 className="product-title">Sisters Of Fury Album</h4></a>
 								<div className="meta">
-									<ul className="rating">
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star-half-o"></i></li>
-									</ul>
 									<h5 className="price">$25.00</h5>
 								</div>
 							</div>
@@ -64,13 +57,6 @@ const RecentProducts = () => {
 							<div className="info-block">
 								<a href="product-single.html"><h4 className="product-title">Sea Lover Album</h4></a>
 								<div className="meta">
-									<ul className="rating">
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star-half-full"></i></li>
-										<li><i className="fa fa-star-o"></i></li>
-									</ul>
 									<h5 className="price">$25.00</h5>
 								</div>
 							</div>
@@ -87,13 +73,6 @@ const RecentProducts = () => {
 							<div className="info-block">
 								<a href="product-single.html"><h4 className="product-title">Comalies Album</h4></a>
 								<div className="meta">
-									<ul className="rating">
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star"></i></li>
-										<li><i className="fa fa-star-half-full"></i></li>
-										<li><i className="fa fa-star-o"></i></li>
-									</ul>
 									<h5 className="price">$25.00</h5>
 								</div>
 							</div>
