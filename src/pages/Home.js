@@ -7,6 +7,7 @@ import EventsList from '../components/eventsList/EventsList'
 import Gallery from '../components/gallery/Gallery'
 import Blog from '../components/blog/Blog'
 import RecentProducts from '../components/products/RecentProducts'
+import Contact from '../components/contact/Contact'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Gallery />
       <Blog />
       <RecentProducts />
+      <Contact />
     </Fragment>
   )
 }

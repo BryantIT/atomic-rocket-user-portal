@@ -204,8 +204,37 @@
   padding-right: 15px;
 }
 
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
     float: left;
   }
   .col-md-12 {
@@ -832,4 +861,57 @@
 }
 .img-circle {
   border-radius: 50%;
+}
+
+.general-form .field {
+  margin-bottom: 35px;
+  display: block;
+  position: relative;
+}
+.general-form .field h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.general-form .field h5 span {
+  margin: -3px 5px 0 0;
+  color: rgba(31, 211, 236, 0.65);
+  font-size: 24px;
+  font-weight: 700;
+}
+.general-form .field input,
+.general-form .field textarea {
+  display: block;
+  height: 45px;
+  width: 100%;
+  padding: 0 20px;
+  color: #ffffff;
+  outline: 0;
+  border: 1px solid rgba(31, 211, 236, 0.6);
+  background: rgba(0, 0, 0, 0.65);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.general-form .field input:hover,
+.general-form .field textarea:hover,
+.general-form .field input:focus,
+.general-form .field textarea:focus,
+.general-form .field input:active,
+.general-form .field textarea:active {
+  border: 1px solid #f1754f;
+}
+.general-form .field label {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  color: #000000;
+  margin-top: 5px;
+  background: #f1754f;
+}
+.general-form .field textarea {
+  height: 220px;
+  padding-top: 20px;
 }
