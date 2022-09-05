@@ -7,7 +7,7 @@ import EventsList from '../components/eventsList/EventsList'
 import Gallery from '../components/gallery/Gallery'
 import BlogPreview from '../components/blog/BlogPreview'
 import RecentProducts from '../components/products/RecentProducts'
-import Contact from '../components/contact/Contact'
+import ContactMini from '../components/contact/ContactMini'
 import Newsletter from '../components/newsletter/Newsletter'
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
       <Gallery />
       <BlogPreview />
       <RecentProducts />
-      <Contact />
+      <ContactMini />
       <Newsletter />
     </Fragment>
   )

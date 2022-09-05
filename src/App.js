@@ -11,6 +11,7 @@ import ArtistPage from './pages/ArtistPage'
 import BlogsPage from './pages/BlogsPage'
 import BlogPage from './pages/BlogPage'
 import CartPage from './pages/CartPage'
+import ContactPage from './pages/ContactPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -41,6 +42,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/cart' element={<CartPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/contact' element={<ContactPage />} />
         </Routes>
       </div>
       <Footer />
