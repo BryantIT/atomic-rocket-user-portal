@@ -34,8 +34,7 @@
     display: inline-block;
     font-size: 11px;
     padding-left: 3px;
-    font-family: 'FontAwesome';
-    content: '\f103';
+    content: '\25be';
   }
   #site-header .tech-nav > ul > li .submenu {
     display: none;
@@ -56,8 +55,7 @@
     display: inline-block;
     font-size: 11px;
     padding-left: 3px;
-    font-family: 'FontAwesome';
-    content: '\f103';
+    content: '\25be';
   }
   #site-header .tech-nav > ul > li .submenu li a {
     display: inline-block;

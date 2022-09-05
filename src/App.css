@@ -962,3 +962,13 @@
   background: #f1754f;
   border-color: #f1754f;
 }
+#filter li:hover,
+#filter li:focus,
+#filter li.selected {
+  border-color: #f1754f;
+}
+#filter li:hover::before,
+#filter li:focus::before,
+#filter li.selected::before {
+  background: #f1754f;
+}

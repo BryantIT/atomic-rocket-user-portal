@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react'
 // Components
 import Header from './components/header/Header'
-import Home from './pages/Home'
 import Footer from './components/footer/Footer'
 import FourOhFour from './components/errors/FourOhFour'
 // Pages
+import Home from './pages/Home'
 import AlbumPage from './pages/AlbumPage'
+import AlbumsPage from './pages/AlbumsPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -21,6 +22,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/album' element={<AlbumPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/albums' element={<AlbumsPage />} />
         </Routes>
       </div>
       <Footer />

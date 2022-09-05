@@ -8,37 +8,18 @@ import { RiShoppingCartLine } from 'react-icons/ri'
 import { FaSearchengin } from 'react-icons/fa'
 import { GiHamburgerMenu } from 'react-icons/gi'
 // Router
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <Fragment>
       <div id='site-navigation' className='tech-nav'>
         <ul>
-          <li className='active has-child'>
+          <li className='active'>
             <Link to='/'>Home</Link>
-            <ul className='submenu'>
-              <li>
-                <a href='index.html'>Home Band</a>
-              </li>
-              <li>
-                <a href='home-artist.html'>Home Artist</a>
-              </li>
-              <li>
-                <a href='home-podcast.html'>Home Podcast</a>
-              </li>
-            </ul>
           </li>
-          <li className='has-child'>
-            <a href='#'>Albums</a>
-            <ul className='submenu'>
-              <li>
-                <a href='albums.html'>Albums Page</a>
-              </li>
-              <li>
-                <a href='album-single.html'>Album Single</a>
-              </li>
-            </ul>
+          <li>
+            <Link to='/albums'>Albums</Link>
           </li>
           <li className='has-child'>
             <a href='#'>Events</a>
