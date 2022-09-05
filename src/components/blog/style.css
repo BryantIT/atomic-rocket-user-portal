@@ -158,7 +158,7 @@
   overflow: hidden;
   border: 1px dashed #1fd3ec;
 }
-.blog-page-wrapper .blog-posts .blog-post blockquote i {
+.blog-page-wrapper .blog-posts .blog-post blockquote .quoteIcon {
   display: block;
   position: absolute;
   top: 22px;

@@ -9,6 +9,7 @@ import AlbumPage from './pages/AlbumPage'
 import AlbumsPage from './pages/AlbumsPage'
 import ArtistPage from './pages/ArtistPage'
 import BlogsPage from './pages/BlogsPage'
+import BlogPage from './pages/BlogPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -33,6 +34,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/blogs' element={<BlogsPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/blog' element={<BlogPage />} />
         </Routes>
       </div>
       <Footer />

@@ -1167,3 +1167,84 @@
 .pagination li a.active::before {
   background: #f1754f;
 }
+.comments {
+  padding-top: 65px;
+}
+.comments.reviews {
+  padding-bottom: 70px;
+}
+.comments .title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.comments .comments-list {
+  padding-top: 20px;
+}
+.comments .comments-list .comment {
+  position: relative;
+  padding: 25px 0 25px 120px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.comments .comments-list .comment .comment-author img {
+  position: absolute;
+  left: -120px;
+  right: 0;
+  padding: 3px;
+  border: 1px solid #1fd3ec;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 3px #000000;
+  box-shadow: inset 0px 0px 0px 3px #000000;
+}
+.comments .comments-list .comment .comment-author .name,
+.comments .comments-list .comment .comment-author .meta {
+  display: inline-block;
+}
+.comments .comments-list .comment .comment-author .name {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 15px;
+}
+.comments .comments-list .comment .comment-author .meta {
+  color: #cccccc;
+}
+.comments .comments-list .comment .rating {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+.comments .comments-list .comment .rating li {
+  display: inline-block;
+}
+.comments .comments-list .comment .rating li i {
+  font-size: 12px;
+  color: #1fd3ec;
+}
+.comments .comments-list .comment p {
+  margin: 10px 0 15px;
+}
+.comments .comments-list .comment:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.comments .comments-list .sub-comment {
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  margin-left: 120px;
+}
+@media all and (max-width: 550px) {
+  .comments .comments-list .comment {
+    padding: 25px 0 25px 60px;
+  }
+  .comments .comments-list .comment .comment-author img {
+    left: -60px;
+    max-width: 50px;
+    height: auto;
+  }
+  .comments .comments-list .comment .rating {
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-top: 5px;
+  }
+  .comments .comments-list .sub-comment {
+    margin-left: 0;
+  }
+}
