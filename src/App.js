@@ -7,6 +7,7 @@ import FourOhFour from './components/errors/FourOhFour'
 import Home from './pages/Home'
 import AlbumPage from './pages/AlbumPage'
 import AlbumsPage from './pages/AlbumsPage'
+import ArtistPage from './pages/ArtistPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -25,6 +26,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/albums' element={<AlbumsPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/artist' element={<ArtistPage />} />
         </Routes>
       </div>
       <Footer />

@@ -30,32 +30,32 @@ const Footer = () => {
             <ul className='social-icons'>
               <li>
                 <a href='http://facebook.com'>
-                  <FaFacebook />
+                  <FaFacebook className='icon' />
                 </a>
               </li>
               <li>
                 <a href='http://twitter.com'>
-                  <FaTwitter />
+                  <FaTwitter className='icon' />
                 </a>
               </li>
               <li>
                 <a href='http://spotify.com'>
-                  <FaSpotify />
+                  <FaSpotify className='icon' />
                 </a>
               </li>
               <li>
                 <a href='http://soundcloud.com'>
-                  <FaSoundcloud />
+                  <FaSoundcloud className='icon' />
                 </a>
               </li>
               <li>
                 <a href='http://youtube.com'>
-                  <FaYoutube />
+                  <FaYoutube className='icon' />
                 </a>
               </li>
               <li>
                 <a href='http://youtube.com'>
-                  <FaInstagramSquare />
+                  <FaInstagramSquare className='icon' />
                 </a>
               </li>
             </ul>

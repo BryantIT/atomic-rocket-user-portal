@@ -155,3 +155,44 @@
 .artists-wrapper .artist:hover .info-block .social-buttons li a {
   height: 30px;
 }
+.artist-single {
+  padding: 20px;
+  border: 1px solid #1fd3ec;
+}
+.artist-single img {
+  max-width: 360px;
+}
+.artist-single h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 767px) {
+  .artist-single h2 {
+    margin-top: 20px;
+  }
+}
+.artist-single .short-info {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.artist-single .sep {
+  width: 82px;
+  height: 1px;
+  border-bottom: 1px dashed #1fd3ec;
+  margin: 35px 0;
+}
+.artist-single p {
+  margin-bottom: 30px;
+}
+.artist-single .social-icons {
+  padding-top: 30px;
+}
+.artist-single .social-icons li {
+  margin-top: 9px;
+}
+
+.artist-single .social-icons .icon {
+  margin-top: 9px;
+}
