@@ -10,6 +10,7 @@ import AlbumsPage from './pages/AlbumsPage'
 import ArtistPage from './pages/ArtistPage'
 import BlogsPage from './pages/BlogsPage'
 import BlogPage from './pages/BlogPage'
+import CartPage from './pages/CartPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -37,6 +38,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/blog' element={<BlogPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/cart' element={<CartPage />} />
         </Routes>
       </div>
       <Footer />
