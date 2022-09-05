@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 // Components
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
-import FourOhFour from './components/errors/FourOhFour'
+import CountDown from './components/utility/countdown/CountDown'
 // Pages
 import Home from './pages/Home'
 import AlbumPage from './pages/AlbumPage'
@@ -44,7 +44,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-      <FourOhFour />
+      <CountDown />
     </Fragment>
   )
 }
