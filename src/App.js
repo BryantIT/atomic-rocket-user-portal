@@ -2,11 +2,9 @@ import React, { Fragment } from 'react'
 // Components
 import Header from './components/header/Header'
 import Home from './pages/Home'
+import Footer from './components/footer/Footer'
 // Router
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
 // Styles
 import './App.css'
 
@@ -19,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
         </Routes>
       </div>
+      <Footer />
     </Fragment>
   )
 }
