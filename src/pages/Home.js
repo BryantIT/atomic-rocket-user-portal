@@ -8,6 +8,7 @@ import Gallery from '../components/gallery/Gallery'
 import Blog from '../components/blog/Blog'
 import RecentProducts from '../components/products/RecentProducts'
 import Contact from '../components/contact/Contact'
+import Newsletter from '../components/newsletter/Newsletter'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Blog />
       <RecentProducts />
       <Contact />
+      <Newsletter />
     </Fragment>
   )
 }
