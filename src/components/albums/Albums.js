@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // Style
 import './style.css'
 
@@ -35,9 +36,9 @@ const Albums = () => {
                       Cras lacinia ipsum nisi, at sagittis leo sodales eget amet
                       vitea
                     </p>
-                    <a href='album-single.html' className='btn'>
+                    <Link className='btn' to='album'>
                       See Album
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
