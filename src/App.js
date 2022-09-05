@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import AlbumPage from './pages/AlbumPage'
 import AlbumsPage from './pages/AlbumsPage'
 import ArtistPage from './pages/ArtistPage'
+import BlogsPage from './pages/BlogsPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -29,6 +30,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/artist' element={<ArtistPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/blogs' element={<BlogsPage />} />
         </Routes>
       </div>
       <Footer />

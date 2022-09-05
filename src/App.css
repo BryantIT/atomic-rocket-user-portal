@@ -932,6 +932,119 @@
   margin: 20px 0 35px;
   border-bottom: 1px dashed #1fd3ec;
 }
+.search-widget form .field {
+  margin-bottom: 0;
+}
+.search-widget form .field input {
+  background: rgba(11, 13, 19, 0.75);
+  padding-right: 40px;
+}
+.search-widget form .field button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  width: 40px;
+  height: 100%;
+}
+.categories-widget ul.categories-list li {
+  height: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.categories-widget ul.categories-list li a {
+  display: block;
+  font-size: 14px;
+  line-height: 40px;
+  color: #1fd3ec;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.categories-widget ul.categories-list li a span {
+  float: right;
+}
+.categories-widget ul.categories-list li a:hover,
+.categories-widget ul.categories-list li a:focus {
+  color: #f1754f;
+}
+.recent-posts-widget .recent-post {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.recent-posts-widget .recent-post img {
+  float: left;
+  margin-right: 20px;
+  padding: 3px;
+  border: 1px solid #1fd3ec;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 3px #000000;
+  box-shadow: inset 0px 0px 0px 3px #000000;
+}
+.recent-posts-widget .recent-post h5 a {
+  line-height: 24px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.recent-posts-widget .recent-post h5 a:hover,
+.recent-posts-widget .recent-post h5 a:focus {
+  color: #1fd3ec;
+}
+.tags-widget ul.tags-list li.tag {
+  display: block;
+  float: left;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.tags-widget ul.tags-list li.tag a {
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  padding: 0 12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 33px;
+  font-weight: 600;
+  border: 1px solid #1fd3ec;
+  color: #0b0d13;
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.tags-widget ul.tags-list li.tag a::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.tags-widget ul.tags-list li.tag a:hover,
+.tags-widget ul.tags-list li.tag a:focus {
+  color: #000000;
+}
+.tags-widget ul.tags-list li.tag a:hover::before,
+.tags-widget ul.tags-list li.tag a:focus::before {
+  background: #1fd3ec;
+}
 .social-icons li {
   display: inline-block;
   margin-right: 5px;
@@ -1009,4 +1122,48 @@
 .page-header .ph-inner-wrapper .title:after {
   left: auto;
   right: -3px;
+}
+.pagination li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 4px;
+}
+.pagination li a {
+  position: relative;
+  display: block;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  color: #000000;
+  border: 1px solid #1fd3ec;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.pagination li a::before {
+  position: absolute;
+  content: '';
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  z-index: -1;
+  background: #1fd3ec;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.pagination li a:hover,
+.pagination li a:focus,
+.pagination li a.active {
+  border-color: #f1754f;
+}
+.pagination li a:hover::before,
+.pagination li a:focus::before,
+.pagination li a.active::before {
+  background: #f1754f;
 }
