@@ -12,6 +12,7 @@ import BlogsPage from './pages/BlogsPage'
 import BlogPage from './pages/BlogPage'
 import CartPage from './pages/CartPage'
 import ContactPage from './pages/ContactPage'
+import EventPage from './pages/EventPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -45,6 +46,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/contact' element={<ContactPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/event' element={<EventPage />} />
         </Routes>
       </div>
       <Footer />
