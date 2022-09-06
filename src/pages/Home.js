@@ -4,7 +4,7 @@ import MusicPlayer from '../components/musicplayer/MusicPlayer'
 import AlbumsPreview from '../components/albums/AlbumsPreview'
 import Artists from '../components/artists/Artists'
 import EventsList from '../components/eventsList/EventsList'
-import Gallery from '../components/gallery/Gallery'
+import GalleryPreview from '../components/gallery/GalleryPreview'
 import BlogPreview from '../components/blog/BlogPreview'
 import RecentProducts from '../components/products/RecentProducts'
 import ContactMini from '../components/contact/ContactMini'
@@ -17,7 +17,7 @@ const Home = () => {
       <AlbumsPreview />
       <Artists />
       <EventsList />
-      <Gallery />
+      <GalleryPreview />
       <BlogPreview />
       <RecentProducts />
       <ContactMini />

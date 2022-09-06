@@ -17,6 +17,7 @@ import EventsPage from './pages/EventsPage'
 import MembersPage from './pages/MembersPage'
 import ProductPage from './pages/ProductPage'
 import ProductsPage from './pages/ProductsPage'
+import GalleryPage from './pages/GalleryPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -65,6 +66,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/products' element={<ProductsPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/gallery' element={<GalleryPage />} />
         </Routes>
       </div>
       <Footer />
