@@ -1170,7 +1170,7 @@
 .comments {
   padding-top: 65px;
 }
-.comments.reviews {
+.comments .reviews {
   padding-bottom: 70px;
 }
 .comments .title {
@@ -1246,5 +1246,20 @@
   }
   .comments .comments-list .sub-comment {
     margin-left: 0;
+  }
+}
+.tab-content > .tab-pane {
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
+}
+.tab-content > .active {
+  visibility: visible;
+  height: auto;
+  overflow: visible;
+}
+@media all and (max-width: 991px) {
+  .sidebar {
+    padding-top: 100px;
   }
 }

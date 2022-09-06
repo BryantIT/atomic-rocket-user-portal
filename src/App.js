@@ -15,6 +15,7 @@ import ContactPage from './pages/ContactPage'
 import EventPage from './pages/EventPage'
 import EventsPage from './pages/EventsPage'
 import MembersPage from './pages/MembersPage'
+import ProductPage from './pages/ProductPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -57,6 +58,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/members' element={<MembersPage />} />
+        </Routes>
+        <Routes>
+          <Route path='/product' element={<ProductPage />} />
         </Routes>
       </div>
       <Footer />
