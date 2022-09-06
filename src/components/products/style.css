@@ -21,7 +21,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 49%;
   height: 100%;
   z-index: 10;
   border: 1px solid #1fd3ec;
@@ -437,4 +437,70 @@
 .shop-sidebar .widget.quick-cart footer h4 span {
   font-weight: 600;
   color: #f1754f;
+}
+.shop-page-wrapper .top-bar {
+  padding-bottom: 30px;
+}
+.shop-page-wrapper .top-bar .custom-select {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #1fd3ec;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.shop-page-wrapper .top-bar .custom-select::before {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background: #1fd3ec;
+  content: '';
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.shop-page-wrapper .top-bar .custom-select:hover,
+.shop-page-wrapper .top-bar .custom-select:focus {
+  border-color: #f1754f;
+}
+.shop-page-wrapper .top-bar .custom-select:hover::before,
+.shop-page-wrapper .top-bar .custom-select:focus::before {
+  background: #f1754f;
+}
+.shop-page-wrapper .top-bar select {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  height: 40px;
+  padding: 0 15px;
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #000000;
+}
+.shop-page-wrapper .top-bar select option {
+  background: #ffffff;
+  font-weight: 600;
+  color: #000000;
+  text-transform: none;
+  opacity: 1;
+}
+.shop-page-wrapper .top-bar h4 {
+  line-height: 40px;
+  color: #e6e6e6;
+}
+@media all and (min-width: 768px) {
+  .shop-page-wrapper .top-bar h4 {
+    float: right;
+  }
 }
